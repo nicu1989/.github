@@ -70,7 +70,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | Repository | Description | Status |
 |------------|-------------|--------|
 | [process](https://github.com/eclipse-score/process) | Score process and docs-as-code repository | 🕓 stale |
-| [process_description](https://github.com/eclipse-score/process_description) | Score project process description | 🕓 stale |
+| [process_description](https://github.com/eclipse-score/process_description) | Score project process description | ✅ active |
 
 ### Examples & Templates
 
