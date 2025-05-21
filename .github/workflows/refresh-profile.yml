@@ -1,0 +1,35 @@
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write 
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install PyGithub
+      - name: Update README
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          DAYS_STALE:     30
+          DAYS_OBSOLETE:  180
+        run: python scripts/update_readme.py
+      - name: Commit and push changes
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          if [[ -n $(git status --porcelain) ]]; then
+            git add profile/README.md
+            git commit -m "chore: auto-refresh status column"
+            git push
+          else
+            echo "README already up-to-date."
+          fi
+  

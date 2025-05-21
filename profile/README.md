@@ -9,7 +9,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 ## Repositories in the Github organization
 
 *Note: descriptions are taken from [IAC configuration](https://github.com/eclipse-score/.eclipsefdn/blob/main/otterdog/eclipse-score.jsonnet) and may not be up to date. Change them there, not here!*
-
+<!-- REPO_STATUS_START -->
 ### General
 
 | Repository | Description | Status |
@@ -77,3 +77,4 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | Repository | Description | Status |
 |------------|-------------|--------|
 | [examples](https://github.com/eclipse-score/examples) | Hosts templates and examples for score tools and workflows | 🕓 stale |
+<!-- REPO_STATUS_END -->
