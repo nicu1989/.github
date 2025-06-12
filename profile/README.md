@@ -15,7 +15,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | Repository | Description | Status |
 |------------|-------------|--------|
 | [score](https://github.com/eclipse-score/score) | Score project main repository | ✅ active |
-| [eclipse-score.github.io](https://github.com/eclipse-score/eclipse-score.github.io) | The landing page website for the Score project | 🕓 stale |
+| [eclipse-score.github.io](https://github.com/eclipse-score/eclipse-score.github.io) | The landing page website for the Score project | ✅ active |
 | [.github](https://github.com/eclipse-score/.github) |  | ✅ active |
 
 ### Modules
@@ -27,7 +27,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | [communication](https://github.com/eclipse-score/communication) | Repository for the communication module LoLa | ✅ active |
 | [itf](https://github.com/eclipse-score/itf) | Integration Testing Framework repository | 🕓 stale |
 | [operating_system](https://github.com/eclipse-score/operating_system) | Repository for the module operating system | ✅ active |
-| [reference_integration](https://github.com/eclipse-score/reference_integration) | Score project integration repository | 🕓 stale |
+| [reference_integration](https://github.com/eclipse-score/reference_integration) | Score project integration repository | 💤 obsolete |
 
 ### Incubation
 
