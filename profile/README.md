@@ -15,7 +15,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | Repository | Description | Status |
 |------------|-------------|--------|
 | [score](https://github.com/eclipse-score/score) | Score project main repository | ✅ active |
-| [eclipse-score.github.io](https://github.com/eclipse-score/eclipse-score.github.io) | The landing page website for the Score project | 🕓 stale |
+| [eclipse-score.github.io](https://github.com/eclipse-score/eclipse-score.github.io) | The landing page website for the Score project | ✅ active |
 | [.github](https://github.com/eclipse-score/.github) |  | ✅ active |
 
 ### Modules
@@ -25,9 +25,9 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | [module_template](https://github.com/eclipse-score/module_template) | C++ & Rust Bazel Template Repository | ✅ active |
 | [baselibs](https://github.com/eclipse-score/baselibs) | base libraries including common functionality | ✅ active |
 | [communication](https://github.com/eclipse-score/communication) | Repository for the communication module LoLa | ✅ active |
-| [itf](https://github.com/eclipse-score/itf) | Integration Testing Framework repository | 🕓 stale |
-| [operating_system](https://github.com/eclipse-score/operating_system) | Repository for the module operating system | 🕓 stale |
-| [reference_integration](https://github.com/eclipse-score/reference_integration) | Score project integration repository | 🕓 stale |
+| [itf](https://github.com/eclipse-score/itf) | Integration Testing Framework repository | ✅ active |
+| [operating_system](https://github.com/eclipse-score/operating_system) | Repository for the module operating system | ✅ active |
+| [reference_integration](https://github.com/eclipse-score/reference_integration) | Score project integration repository | ✅ active |
 
 ### Incubation
 
@@ -35,11 +35,11 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 |------------|-------------|--------|
 | [inc_feo](https://github.com/eclipse-score/inc_feo) | Incubation repository for the fixed execution order framework | ✅ active |
 | [inc_mw_com](https://github.com/eclipse-score/inc_mw_com) | Incubation repository for interprocess communication framework | ✅ active |
-| [inc_mw_log](https://github.com/eclipse-score/inc_mw_log) | Incubation repository for logging framework | 🕓 stale |
+| [inc_mw_log](https://github.com/eclipse-score/inc_mw_log) | Incubation repository for logging framework | ✅ active |
 | [inc_mw_per](https://github.com/eclipse-score/inc_mw_per) | Incubation repository for persistency framework | ✅ active |
 | [inc_orchestrator](https://github.com/eclipse-score/inc_orchestrator) | Incubation repo for orchestration | ✅ active |
-| [inc_process_test_management](https://github.com/eclipse-score/inc_process_test_management) | Incubation repository for Process - Sphinx-Test management | 🕓 stale |
-| [inc_process_variant_management](https://github.com/eclipse-score/inc_process_variant_management) | Incubation repository for Process - Sphinx-Variant management | 🕓 stale |
+| [inc_process_test_management](https://github.com/eclipse-score/inc_process_test_management) | Incubation repository for Process - Sphinx-Test management | ✅ active |
+| [inc_process_variant_management](https://github.com/eclipse-score/inc_process_variant_management) | Incubation repository for Process - Sphinx-Variant management | ✅ active |
 
 ### Infrastructure / Toolchains
 
@@ -47,7 +47,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 |------------|-------------|--------|
 | [toolchains_gcc](https://github.com/eclipse-score/toolchains_gcc) | Bazel toolchains for GNU GCC | ✅ active |
 | [toolchains_gcc_packages](https://github.com/eclipse-score/toolchains_gcc_packages) | Bazel toolchains for GNU GCC | ✅ active |
-| [toolchains_qnx](https://github.com/eclipse-score/toolchains_qnx) | Bazel toolchains for QNX | 🕓 stale |
+| [toolchains_qnx](https://github.com/eclipse-score/toolchains_qnx) | Bazel toolchains for QNX | ✅ active |
 | [toolchains_rust](https://github.com/eclipse-score/toolchains_rust) | Rust toolchains | ✅ active |
 
 ### Infrastructure / Tooling
@@ -75,5 +75,5 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 
 | Repository | Description | Status |
 |------------|-------------|--------|
-| [examples](https://github.com/eclipse-score/examples) | Hosts templates and examples for score tools and workflows | 🕓 stale |
+| [examples](https://github.com/eclipse-score/examples) | Hosts templates and examples for score tools and workflows | ✅ active |
 <!-- REPO_STATUS_END -->
