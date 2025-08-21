@@ -25,19 +25,20 @@ jobs:
       - name: Update README
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          DAYS_STALE:     30
-          DAYS_OBSOLETE:  180
         run: python scripts/update_readme.py
 
-      - name: Commit and push changes
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          if [[ -n $(git status --porcelain) ]]; then
-            git add profile/README.md
-            git commit -m "chore: auto-refresh status column"
-            git push
-          else
-            echo "README already up-to-date."
-          fi
-  
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          title: Update status
+          author: eclipse-score-bot <187756813+eclipse-score-bot@users.noreply.github.com>
+          committer: eclipse-score-bot <187756813+eclipse-score-bot@users.noreply.github.com>
+          body: |
+            This PR updates the description and status columns of the start page.
+            Please review and merge if everything looks good.
+          commit-message: "chore: auto-refresh status column"
+          # We need to use a different token than GITHUB_TOKEN, so that PR triggers all the PR-workflows.
+          branch: bot/status-update
+        env:
+          GITHUB_TOKEN: ${{ secrets.SCORE_BOT_PAT }}

@@ -19,9 +19,8 @@ NOW = datetime.now(timezone.utc)
 def calc_state(pushed_at: datetime) -> str:
     # TODO: use e.g. last 3 commits, instead of only one last commit
 
-    # Note: 27 makes most sense at the time of writing, to exclude a global search & replace of license files
-    DAYS_STALE = int(os.getenv("DAYS_STALE", "27"))
-    DAYS_OBSOLETE = int(os.getenv("DAYS_OBSOLETE", "90"))
+    DAYS_STALE = 30
+    DAYS_OBSOLETE = 90
 
     cut1 = NOW - timedelta(days=DAYS_STALE)
     cut2 = NOW - timedelta(days=DAYS_OBSOLETE)
