@@ -6,7 +6,8 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write 
+  contents: write
+  pull-requests: write
 
 jobs:
   refresh:
@@ -38,7 +39,7 @@ jobs:
             This PR updates the description and status columns of the start page.
             Please review and merge if everything looks good.
           commit-message: "chore: auto-refresh status column"
-          # We need to use a different token than GITHUB_TOKEN, so that PR triggers all the PR-workflows.
+          base: main
           branch: bot/status-update
         env:
           GITHUB_TOKEN: ${{ secrets.SCORE_BOT_PAT }}
