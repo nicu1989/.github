@@ -61,7 +61,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 
 | Repository | Description | Status |
 |------------|-------------|--------|
-| [cicd-workflows](https://github.com/eclipse-score/cicd-workflows) | Reusable GitHub Actions workflows for CI/CD automation | ✅ active |
+| [cicd-workflows](https://github.com/eclipse-score/cicd-workflows) | Reusable GitHub Actions workflows for CI/CD automation | 🕓 stale |
 | [bazel_registry](https://github.com/eclipse-score/bazel_registry) | Score project bazel modules registry | ✅ active |
 | [.eclipsefdn](https://github.com/eclipse-score/.eclipsefdn) | Repository to host configurations related to the Eclipse Foundation. | ✅ active |
 
