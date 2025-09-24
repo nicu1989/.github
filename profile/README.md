@@ -47,8 +47,8 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 |------------|-------------|--------|
 | [toolchains_gcc](https://github.com/eclipse-score/toolchains_gcc) | Bazel toolchains for GNU GCC | 🕓 stale |
 | [toolchains_gcc_packages](https://github.com/eclipse-score/toolchains_gcc_packages) | Bazel toolchains for GNU GCC | ✅ active |
-| [toolchains_qnx](https://github.com/eclipse-score/toolchains_qnx) | Bazel toolchains for QNX | 🕓 stale |
-| [toolchains_rust](https://github.com/eclipse-score/toolchains_rust) | Rust toolchains | 🕓 stale |
+| [toolchains_qnx](https://github.com/eclipse-score/toolchains_qnx) | Bazel toolchains for QNX | ✅ active |
+| [toolchains_rust](https://github.com/eclipse-score/toolchains_rust) | Rust toolchains | ✅ active |
 
 ### Infrastructure / Tooling
 
@@ -61,7 +61,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 
 | Repository | Description | Status |
 |------------|-------------|--------|
-| [cicd-workflows](https://github.com/eclipse-score/cicd-workflows) | Reusable GitHub Actions workflows for CI/CD automation | 🕓 stale |
+| [cicd-workflows](https://github.com/eclipse-score/cicd-workflows) | Reusable GitHub Actions workflows for CI/CD automation | ✅ active |
 | [bazel_registry](https://github.com/eclipse-score/bazel_registry) | Score project bazel modules registry | ✅ active |
 | [.eclipsefdn](https://github.com/eclipse-score/.eclipsefdn) | Repository to host configurations related to the Eclipse Foundation. | ✅ active |
 
