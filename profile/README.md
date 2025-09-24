@@ -62,6 +62,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | [inc_process_test_management](https://github.com/eclipse-score/inc_process_test_management) | Incubation repository for Process - Sphinx-Test management | 🕓 stale |
 | [inc_process_variant_management](https://github.com/eclipse-score/inc_process_variant_management) | Incubation repository for Process - Sphinx-Variant management | ✅ active |
 | [testing_tools](https://github.com/eclipse-score/testing_tools) | Repository for testing utilities | 🕓 stale |
+| [inc_lifecycle](https://github.com/eclipse-score/inc_lifecycle) | Incubation repository for lifecycle feature | ✅ active |) | Incubation repository for lifecycle framework | ✅ active |
 
 ### Infrastructure / Toolchains
 
