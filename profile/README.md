@@ -27,7 +27,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | [communication](https://github.com/eclipse-score/communication) | Repository for the communication module LoLa | ✅ active |
 | [itf](https://github.com/eclipse-score/itf) | Integration Testing Framework repository | ✅ active |
 | [operating_system](https://github.com/eclipse-score/operating_system) | Repository for the module operating system | 🕓 stale |
-| [reference_integration](https://github.com/eclipse-score/reference_integration) | Score project integration repository | 🕓 stale |
+| [reference_integration](https://github.com/eclipse-score/reference_integration) | Score project integration repository | ✅ active |
 
 ### Incubation
 
