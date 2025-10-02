@@ -55,7 +55,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | Repository | Description | Status |
 |------------|-------------|--------|
 | [docs-as-code](https://github.com/eclipse-score/docs-as-code) | Contains docs-as-code tooling | ✅ active |
-| [tooling](https://github.com/eclipse-score/tooling) | Repository for hosting score host tools | ✅ active |
+| [tooling](https://github.com/eclipse-score/tooling) | Repository for hosting score host tools | 🕓 stale |
 
 ### Infrastructure / Other
 
