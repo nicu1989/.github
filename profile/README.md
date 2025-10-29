@@ -57,7 +57,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | [inc_mw_log](https://github.com/eclipse-score/inc_mw_log) | Incubation repository for logging framework | ✅ active |
 | [persistency](https://github.com/eclipse-score/persistency) | Incubation repository for persistency framework | ✅ active |
 | [inc_nlohmann_json](https://github.com/eclipse-score/inc_nlohmann_json) | Nlohmann JSON Library | 🕓 stale |
-| [inc_orchestrator](https://github.com/eclipse-score/inc_orchestrator) | Incubation repo for orchestration | ✅ active |
+| [orchestrator](https://github.com/eclipse-score/orchestrator) | Repository for the Orchestration framework incl. async executor | ✅ active |
 | [inc_os_autosd](https://github.com/eclipse-score/inc_os_autosd) | Incubation repository for AutoSD Development Platform | ✅ active |
 | [inc_process_test_management](https://github.com/eclipse-score/inc_process_test_management) | Incubation repository for Process - Sphinx-Test management | 💤 obsolete |
 | [inc_process_variant_management](https://github.com/eclipse-score/inc_process_variant_management) | Incubation repository for Process - Sphinx-Variant management | 🕓 stale |
