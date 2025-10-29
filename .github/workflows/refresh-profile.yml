@@ -28,15 +28,21 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/update_readme.py
 
+      - name: Collect metrics
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/collect_metrics.py
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          title: Update status
+          title: Update status and metrics
           author: eclipse-score-bot <187756813+eclipse-score-bot@users.noreply.github.com>
           committer: eclipse-score-bot <187756813+eclipse-score-bot@users.noreply.github.com>
           body: |
-            This PR updates the description and status columns of the start page.
+            This PR updates:
+            - The repository descriptions and status in `profile/README.md`
+            - The cross-repo metrics report in `profile/metrics.md`
             Please review and merge if everything looks good.
           commit-message: "chore: auto-refresh status column"
           base: main

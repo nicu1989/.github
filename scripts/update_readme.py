@@ -1,3 +1,16 @@
+# *******************************************************************************
+# Copyright (c) 2025 Contributors to the Eclipse Foundation
+#
+# See the NOTICE file(s) distributed with this work for additional
+# information regarding copyright ownership.
+#
+# This program and the accompanying materials are made available under the
+# terms of the Apache License Version 2.0 which is available at
+# https://www.apache.org/licenses/LICENSE-2.0
+#
+# SPDX-License-Identifier: Apache-2.0
+# *******************************************************************************
+
 #!/usr/bin/env python3
 """
 Update the Descriptions and Status column (✅ / 🕓 / 💤) in profile/README.md.
@@ -6,6 +19,7 @@ Update the Descriptions and Status column (✅ / 🕓 / 💤) in profile/README.
 import os
 import pathlib
 import re
+import time
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 
@@ -32,6 +46,74 @@ def calc_state(pushed_at: datetime) -> str:
     return "✅ active"
 
 
+def get_last_commit(repo):
+    import requests
+
+    token = os.getenv("GITHUB_TOKEN")
+    headers = {"Authorization": f"Bearer {token}"}
+
+    query = """
+    query($owner: String!, $name: String!, $branchCount: Int!) {
+      repository(owner: $owner, name: $name) {
+        refs(refPrefix: "refs/heads/", first: $branchCount, orderBy: {field: TAG_COMMIT_DATE, direction: DESC}) {
+          nodes {
+            name
+            target {
+              ... on Commit {
+                committedDate
+                author {
+                  user {
+                    login
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    """
+
+    variables = {
+        "owner": repo.owner.login,
+        "name": repo.name,
+        "branchCount": 100
+    }
+
+    response = requests.post(
+        "https://api.github.com/graphql",
+        json={"query": query, "variables": variables},
+        headers=headers,
+    )
+    if response.status_code != 200:
+        print(f"⚠️ GraphQL request failed for {repo.name}: {response.status_code} {response.text}")
+        return None
+
+    data = response.json()
+    if "errors" in data:
+        print(f"⚠️ GraphQL error for {repo.name}: {data['errors']}")
+        return None
+
+    branches = data.get("data", {}).get("repository", {}).get("refs", {}).get("nodes", [])
+    latest = None
+
+    for branch in branches:
+        commit = branch.get("target")
+        if not commit:
+            continue
+        author = commit.get("author", {}).get("user")
+        if not author:
+            continue
+        login = author.get("login", "").lower()
+        if login.endswith("[bot]") or "bot" in login:
+            continue
+        dt = datetime.fromisoformat(commit["committedDate"].replace("Z", "+00:00"))
+        if latest is None or dt > latest:
+            latest = dt
+
+    return latest
+
+
 @dataclass
 class RepoData:
     name: str
@@ -41,14 +123,25 @@ class RepoData:
 
 def query_github_org_for_repo_data(gh: Github, org: str):
     # TODO: pagination once we hit 100 repos
-    return {
-        repo.name: RepoData(
+    repos = gh.get_organization(org).get_repos()
+    data = {}
+
+    for repo in repos:
+        print(f"🔍 Checking {repo.name} ...")
+        last_commit = get_last_commit(repo)
+        if last_commit:
+            status = calc_state(last_commit)
+        else:
+            status = "💤 obsolete"
+
+        data[repo.name] = RepoData(
             name=repo.name,
-            description=repo.description,
-            status=calc_state(repo.pushed_at),
+            description=repo.description or "(no description)",
+            status=status,
         )
-        for repo in gh.get_organization(org).get_repos()
-    }
+        time.sleep(1)  # small sleep to avoid hitting rate limits
+    return data
+
 
 
 def update_line(line: str, repo_data: dict[str, RepoData]) -> str:
