@@ -23,9 +23,9 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | Repository | Description | Status |
 |------------|-------------|--------|
 | [eclipse-score.github.io](https://github.com/eclipse-score/eclipse-score.github.io) | The landing page website for the Score project | 🕓 stale |
-| [eclipse-score-website](https://github.com/eclipse-score/eclipse-score-website) | None | 🕓 stale |
-| [eclipse-score-website-preview](https://github.com/eclipse-score/eclipse-score-website-preview) | None | 🕓 stale |
-| [eclipse-score-website-published](https://github.com/eclipse-score/eclipse-score-website-published) | None | 🕓 stale |
+| [eclipse-score-website](https://github.com/eclipse-score/eclipse-score-website) | (no description) | 🕓 stale |
+| [eclipse-score-website-preview](https://github.com/eclipse-score/eclipse-score-website-preview) | (no description) | 🕓 stale |
+| [eclipse-score-website-published](https://github.com/eclipse-score/eclipse-score-website-published) | (no description) | 💤 obsolete |
 
 ### Modules
 
@@ -48,21 +48,21 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | Repository | Description | Status |
 |------------|-------------|--------|
 | [bazel-tools-python](https://github.com/eclipse-score/bazel-tools-python) | Repository for python static code checker | ✅ active |
-| [bazel-tools-cc](https://github.com/eclipse-score/bazel-tools-cc) | Repository for clang-tidy based static code checker | 🕓 stale |
-| [inc_config_management](https://github.com/eclipse-score/inc_config_management) | Incubation repository for config management | 🕓 stale |
+| [bazel-tools-cc](https://github.com/eclipse-score/bazel-tools-cc) | Repository for clang-tidy based static code checker | 💤 obsolete |
+| [inc_config_management](https://github.com/eclipse-score/inc_config_management) | Incubation repository for config management | 💤 obsolete |
 | [inc_daal](https://github.com/eclipse-score/inc_daal) | Incubation repository for DAAL module | 🕓 stale |
 | [inc_feo](https://github.com/eclipse-score/inc_feo) | Incubation repository for the fixed execution order framework | 🕓 stale |
-| [inc_json](https://github.com/eclipse-score/inc_json) | Incubation repository for JSON module | 🕓 stale |
+| [inc_json](https://github.com/eclipse-score/inc_json) | Incubation repository for JSON module | 💤 obsolete |
 | [inc_mw_com](https://github.com/eclipse-score/inc_mw_com) | Incubation repository for interprocess communication framework | ✅ active |
 | [inc_mw_log](https://github.com/eclipse-score/inc_mw_log) | Incubation repository for logging framework | ✅ active |
 | [persistency](https://github.com/eclipse-score/persistency) | Incubation repository for persistency framework | ✅ active |
-| [inc_nlohmann_json](https://github.com/eclipse-score/inc_nlohmann_json) | Nlohmann JSON Library | 🕓 stale |
+| [inc_nlohmann_json](https://github.com/eclipse-score/inc_nlohmann_json) | Nlohmann JSON Library | 💤 obsolete |
 | [orchestrator](https://github.com/eclipse-score/orchestrator) | Repository for the Orchestration framework incl. async executor | ✅ active |
 | [inc_os_autosd](https://github.com/eclipse-score/inc_os_autosd) | Incubation repository for AutoSD Development Platform | ✅ active |
 | [inc_process_test_management](https://github.com/eclipse-score/inc_process_test_management) | Incubation repository for Process - Sphinx-Test management | 💤 obsolete |
 | [inc_process_variant_management](https://github.com/eclipse-score/inc_process_variant_management) | Incubation repository for Process - Sphinx-Variant management | 🕓 stale |
 | [testing_tools](https://github.com/eclipse-score/testing_tools) | Repository for testing utilities | ✅ active |
-| [inc_lifecycle](https://github.com/eclipse-score/inc_lifecycle) | Incubation repository for the lifecycle feature | 🕓 stale |
+| [inc_lifecycle](https://github.com/eclipse-score/inc_lifecycle) | Incubation repository for the lifecycle feature | 💤 obsolete |
 
 ### Infrastructure / Toolchains
 
@@ -89,7 +89,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | [apt-install](https://github.com/eclipse-score/apt-install) | GitHub Action to execute apt-install in a clever way | 💤 obsolete |
 | [cicd-workflows](https://github.com/eclipse-score/cicd-workflows) | Reusable GitHub Actions workflows for CI/CD automation | ✅ active |
 | [bazel_registry](https://github.com/eclipse-score/bazel_registry) | Score project bazel modules registry | ✅ active |
-| [bazel_registry_ui](https://github.com/eclipse-score/bazel_registry_ui) | House the ui for bazel_registry in Score | 🕓 stale |
+| [bazel_registry_ui](https://github.com/eclipse-score/bazel_registry_ui) | House the ui for bazel_registry in Score | 💤 obsolete |
 | [.eclipsefdn](https://github.com/eclipse-score/.eclipsefdn) | Repository to host configurations related to the Eclipse Foundation. | ✅ active |
 
 ### Examples & Templates
