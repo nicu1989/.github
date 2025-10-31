@@ -38,6 +38,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | [itf](https://github.com/eclipse-score/itf) | Integration Testing Framework repository | ✅ active |
 | [operating_system](https://github.com/eclipse-score/operating_system) | Repository for the module operating system | 💤 obsolete |
 | [orchestrator](https://github.com/eclipse-score/orchestrator) | Orchestration framework & Safe async runtime for Rust | ✅ active |
+| [persistency](https://github.com/eclipse-score/persistency) | Repository for persistency framework | ✅ active |
 
 ### Integrations
 | Repository | Description | Status |
@@ -56,7 +57,6 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | [inc_json](https://github.com/eclipse-score/inc_json) | Incubation repository for JSON module | 💤 obsolete |
 | [inc_mw_com](https://github.com/eclipse-score/inc_mw_com) | Incubation repository for interprocess communication framework | ✅ active |
 | [inc_mw_log](https://github.com/eclipse-score/inc_mw_log) | Incubation repository for logging framework | ✅ active |
-| [persistency](https://github.com/eclipse-score/persistency) | Incubation repository for persistency framework | ✅ active |
 | [inc_nlohmann_json](https://github.com/eclipse-score/inc_nlohmann_json) | Nlohmann JSON Library | 💤 obsolete |
 | [inc_os_autosd](https://github.com/eclipse-score/inc_os_autosd) | Incubation repository for AutoSD Development Platform | ✅ active |
 | [inc_process_test_management](https://github.com/eclipse-score/inc_process_test_management) | Incubation repository for Process - Sphinx-Test management | 💤 obsolete |
