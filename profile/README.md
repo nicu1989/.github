@@ -35,7 +35,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 |------------|-------------|--------|
 | [inc_feo](https://github.com/eclipse-score/inc_feo) | Incubation repository for the fixed execution order framework | 🕓 stale |
 | [inc_mw_com](https://github.com/eclipse-score/inc_mw_com) | Incubation repository for interprocess communication framework | 🕓 stale |
-| [inc_mw_log](https://github.com/eclipse-score/inc_mw_log) | Incubation repository for logging framework | ✅ active |
+| [inc_mw_log](https://github.com/eclipse-score/inc_mw_log) | Incubation repository for logging framework | 🕓 stale |
 | [inc_mw_per](https://github.com/eclipse-score/inc_mw_per) | Incubation repository for persistency framework | ✅ active |
 | [inc_orchestrator](https://github.com/eclipse-score/inc_orchestrator) | Incubation repo for orchestration | ✅ active |
 | [inc_process_test_management](https://github.com/eclipse-score/inc_process_test_management) | Incubation repository for Process - Sphinx-Test management | 🕓 stale |
