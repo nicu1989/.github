@@ -22,7 +22,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 
 | Repository | Description | Status |
 |------------|-------------|--------|
-| [module_template](https://github.com/eclipse-score/module_template) | C++ & Rust Bazel Template Repository | 🕓 stale |
+| [module_template](https://github.com/eclipse-score/module_template) | C++ & Rust Bazel Template Repository | ✅ active |
 | [baselibs](https://github.com/eclipse-score/baselibs) | base libraries including common functionality | ✅ active |
 | [communication](https://github.com/eclipse-score/communication) | Repository for the communication module LoLa | ✅ active |
 | [itf](https://github.com/eclipse-score/itf) | Integration Testing Framework repository | ✅ active |
