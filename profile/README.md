@@ -26,7 +26,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | [baselibs](https://github.com/eclipse-score/baselibs) | base libraries including common functionality | ✅ active |
 | [communication](https://github.com/eclipse-score/communication) | Repository for the communication module LoLa | ✅ active |
 | [itf](https://github.com/eclipse-score/itf) | Integration Testing Framework repository | 🕓 stale |
-| [operating_system](https://github.com/eclipse-score/operating_system) | Repository for the module operating system | 🕓 stale |
+| [operating_system](https://github.com/eclipse-score/operating_system) | Repository for the module operating system | 💤 obsolete |
 | [reference_integration](https://github.com/eclipse-score/reference_integration) | Score project integration repository | ✅ active |
 
 ### Incubation
@@ -38,7 +38,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | [inc_mw_log](https://github.com/eclipse-score/inc_mw_log) | Incubation repository for logging framework | 🕓 stale |
 | [inc_mw_per](https://github.com/eclipse-score/inc_mw_per) | Incubation repository for persistency framework | ✅ active |
 | [inc_orchestrator](https://github.com/eclipse-score/inc_orchestrator) | Incubation repo for orchestration | ✅ active |
-| [inc_process_test_management](https://github.com/eclipse-score/inc_process_test_management) | Incubation repository for Process - Sphinx-Test management | 🕓 stale |
+| [inc_process_test_management](https://github.com/eclipse-score/inc_process_test_management) | Incubation repository for Process - Sphinx-Test management | 💤 obsolete |
 | [inc_process_variant_management](https://github.com/eclipse-score/inc_process_variant_management) | Incubation repository for Process - Sphinx-Variant management | 🕓 stale |
 
 ### Infrastructure / Toolchains
@@ -76,5 +76,5 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 
 | Repository | Description | Status |
 |------------|-------------|--------|
-| [examples](https://github.com/eclipse-score/examples) | Hosts templates and examples for score tools and workflows | 🕓 stale |
+| [examples](https://github.com/eclipse-score/examples) | Hosts templates and examples for score tools and workflows | 💤 obsolete |
 <!-- REPO_STATUS_END -->
