@@ -39,7 +39,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | [inc_mw_per](https://github.com/eclipse-score/inc_mw_per) | Incubation repository for persistency framework | ✅ active |
 | [inc_orchestrator](https://github.com/eclipse-score/inc_orchestrator) | Incubation repo for orchestration | ✅ active |
 | [inc_process_test_management](https://github.com/eclipse-score/inc_process_test_management) | Incubation repository for Process - Sphinx-Test management | 💤 obsolete |
-| [inc_process_variant_management](https://github.com/eclipse-score/inc_process_variant_management) | Incubation repository for Process - Sphinx-Variant management | 🕓 stale |
+| [inc_process_variant_management](https://github.com/eclipse-score/inc_process_variant_management) | Incubation repository for Process - Sphinx-Variant management | 💤 obsolete |
 
 ### Infrastructure / Toolchains
 
