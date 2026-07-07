@@ -15,7 +15,7 @@ See [S-CORE-website](https://eclipse-score.github.io/) and [documentation](https
 | Repository | Description | Status |
 |------------|-------------|--------|
 | [score](https://github.com/eclipse-score/score) | Score project main repository | ✅ active |
-| [eclipse-score.github.io](https://github.com/eclipse-score/eclipse-score.github.io) | The landing page website for the Score project | 🕓 stale |
+| [eclipse-score.github.io](https://github.com/eclipse-score/eclipse-score.github.io) | The landing page website for the Score project | 💤 obsolete |
 | [.github](https://github.com/eclipse-score/.github) |  | ✅ active |
 
 ### Modules
